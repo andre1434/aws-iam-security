@@ -11,8 +11,8 @@ The project aims to:
 <ul>
   <li>Create EC2 instances for production and development.</li>
   <li>Create an IAM policy. This policy should:</li>
-    <p></p>- Allow all EC2 related actions for all resources with the conidition that the resource tag is "development"
-    - Allow EC2 describe action for all resources.
-    - Deny Deletion and Creation of EC2 tags for all resources.</p>
+    - Allow all EC2 related actions for all resources with the conidition that the resource tag is "development"  
+    - Allow EC2 describe action for all resources.  
+    - Deny Deletion and Creation of EC2 tags for all resources.  
 
 </ul>
