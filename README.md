@@ -18,4 +18,4 @@ The project aims to:
   <li>Create IAM User. Add the user to the newly created user group.</li>
   <li>Test if the access is working as expected.</li>
 </ul>
-![Uploading IAM.jpg…]()
+![IAM](https://github.com/user-attachments/assets/1e90020e-de9c-4913-8f22-a4f4f6c78547)
