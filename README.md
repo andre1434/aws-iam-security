@@ -18,3 +18,4 @@ The project aims to:
   <li>Create IAM User. Add the user to the newly created user group.</li>
   <li>Test if the access is working as expected.</li>
 </ul>
+![Uploading IAM.jpg…]()
