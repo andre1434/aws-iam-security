@@ -5,6 +5,7 @@ This repository contains a walkthrough in using AWS IAM service to control authe
 Resources used:
 - EC2
 - IAM
+Region: us-west-2 (Oregon)
 
 <h1>Objectives</h1>
 The project aims to:
@@ -18,5 +19,15 @@ The project aims to:
   <li>Create IAM User. Add the user to the newly created user group.</li>
   <li>Test if the access is working as expected.</li>
 </ul>
-![IAM](https://github.com/user-attachments/assets/eea6554f-4d94-4cf0-8b95-1e3b7f215ed7)
+<div style="align-items: center;">
+  <img src="/AWS IAM Security/IAM.jpg" alt="My Project Logo">
+</div>
 
+<h2>Stage 1: Create EC2 Instances</h2>
+<p>The creation of the 2 EC2 instances is for the purpose of differentiating the effects of the policy to be created.</p>
+When creating the EC2 instance, add an additional tag with Key = "<b>Env</b>". Value to be input will be <b>"production"</b> for production environment EC2 instance, and <b>"development"</b> for development environment EC2 instance.<br><br>
+<div style="align-items: center;">
+  <img src="AWS IAM Security/Creating EC2 Instances.jpg" alt="My Project Logo">
+</div>
+<br>
+Reason: 
