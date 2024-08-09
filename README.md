@@ -66,9 +66,13 @@ Proceed testing as follows:<br>
   Expectation is that there would be an authorization error. Reason is that the policy only allowed the action for EC2 instances with "development" tag.
   <img src="AWS IAM Security/error message ec2 prod.jpg" alt="Prod error"><br><br>
   <li>Try to stop Development EC2 instance</li>
-  Exoectation is that the action would be successful as the policy allows this.
+  Expectation is that the action would be successful as the policy allows this.
   <img src="AWS IAM Security/success stop ec2 dev.jpg" alt="Prod error">
 </ul>
+<br><br>
+Another way in testing the policy is by using the Policy Simulator. This, for me, is an easier and a move convenient way to test the policy if used correctly.<br>
+This can be accessed through the IAM dashboard section.<br><br>
+<img src="AWS IAM Security/Using Policy Simulator.jpg" alt="Policy Simulator"><br><br>
 
 <h3>## Credits ##</h3>
 Project was originally authored by <a href="https://community.nextwork.org/home">Nextwork</a>.
