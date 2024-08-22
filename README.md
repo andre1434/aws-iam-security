@@ -76,3 +76,5 @@ This can be accessed through the IAM dashboard section.<br><br>
 
 <h3>## Credits ##</h3>
 Project was originally authored by <a href="https://community.nextwork.org/home">Nextwork</a>.
+
+<p align="center"><b>==END OF DOCUMENTATION==</b>
